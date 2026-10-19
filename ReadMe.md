@@ -1,18 +1,3 @@
-The formatting broke on GitHub because **when you copied the text from the chat window, the Markdown symbols (`##` for headings and ````` for code blocks) were stripped out**, causing GitHub to mash your architecture diagram into a single paragraph.
-
-You can fix this directly on GitHub in 15 seconds without touching Visual Studio:
-
-### How to Fix It Directly on GitHub
-
-1. Look at the **top-right corner** of your README box on GitHub and click the **Pencil icon (`Edit file`)**.
-
-
-2. Delete everything inside that editor box.
-3. Click the **Copy** button at the top-right of the code block below, paste it into the GitHub editor, and click the green **Commit changes...** button at the top right.
-
-*(Notice how the Architecture Overview uses a clean Markdown Table instead of ASCII lines so it can never break or wrap awkwardly on any screen).*
-
-```markdown
 # Student Information Management Web API
 
 [![.NET 8](https://img.shields.io/badge/.NET-8.0-512BD4?logo=dotnet)](https://dotnet.microsoft.com/)
@@ -143,5 +128,3 @@ The application follows a decoupled N-Tier pattern to separate HTTP contracts, b
    `dotnet ef database update`
 4. **Run the application:**
    `dotnet run`
-
-```
